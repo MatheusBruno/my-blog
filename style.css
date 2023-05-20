@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.exemplo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: aqua;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column
+}
+
+.subdiv{
+    margin: 5px 0px 0px 5px ;
+    width: 650px;
+    height: 250px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.subdivdiv{
+    width: 50%;
+    height: 100%;
+    background-color:blueviolet;
+}
+
+.subdivdiv h1{
+    width: 100%;
+    height: 20%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.subdivdiv p{
+    width: 100%;
+    height: 80%;
+    background-color: bisque;
+    margin: 2px 2px 2px 2px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.subdivdiv img{
+    width: 100%;
+    height: 100%;
+}
